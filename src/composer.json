@@ -1,0 +1,19 @@
+{
+    "name": "iqc/mvc",
+    "description": "MVC Completo",
+    "authors": [
+        {
+            "name": "Inocencio Cardoso",
+            "email": "inocenciocardoso19@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"../app/",
+            "Src\\":"..src"
+        }
+    }
+}
